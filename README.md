@@ -54,7 +54,7 @@
 
 1. Navigate to the backend directory:  
    ```bash
-   cd backend
+   cd server
    ```
 2. Install dependencies:
    ```bash
@@ -83,7 +83,7 @@
 
 1. Navigate to the frontend directory:  
    ```bash
-   cd frontend
+   cd client
    ```
 2. Install dependencies:
    ``` bash
@@ -111,7 +111,7 @@
 
 ### Project Structure
 ```text
-├── backend/                # Express.js server
+├── server/                # Express.js server
 │   ├── controllers/        # Route handlers
 │   ├── models/             # Mongoose schemas
 │   ├── routes/             # API endpoints
@@ -120,7 +120,7 @@
 │   ├── .env                # Environment variables
 │   └── server.js           # Entry point
 
-├── frontend/               # React.js client
+├── client/               # React.js client
 │   ├── public/
 │   ├── src/
 │   │   ├── components/     # Reusable UI components
