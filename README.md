@@ -87,11 +87,11 @@
    ```
 2. Install dependencies:
    ``` bash
-   npm install
+   npm clean install
    # or
-   yarn install
+   yarn clean install
    ```
-3. Create a ```.env``` file in ```frontend/``` with the following:
+3. Create a ```.env``` file in ```client/``` with the following:
    ```text
    REACT_APP_API_URL=http://localhost:4000/api
    ```
